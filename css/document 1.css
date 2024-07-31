@@ -1,0 +1,44 @@
+.container
+{
+  width:1000px;
+  height:1200px;
+  background-color: rgb(75, 4, 110); 
+  overflow: hidden; 
+  margin: 0px auto;
+  font-family: Arial;
+}
+nav
+{
+  font-size: large;
+  text-transform: capitalize;
+  margin-left: 20px;
+  margin-top: 10px;
+  color:aliceblue;
+  font-weight: bolder;
+}
+nav ul
+{
+	float:left;
+	text-transform:capitalize;
+	margin-top:30px;
+}
+nav li
+{
+	list-style:none;
+	display:inline;
+	margin:30px 30px;
+	color:#D5D5D5;
+}
+nav
+{
+	float:left;
+}
+nav a
+{
+	color:#c3c0c0;
+	text-decoration:none;
+}
+nav a:hover
+{
+	color:#a908f4;
+}

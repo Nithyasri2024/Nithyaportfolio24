@@ -1,0 +1,127 @@
+.boxone
+{
+    width:880px  ;
+    height:250px ;
+    background-color: rgb(75, 4, 110);
+    margin-left:60px;
+    margin-top: 100px;
+    
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-o-border-radius:30px;
+	-ms-border-radius:30px;
+	border-radius:30px;
+}
+.firstbox
+{
+    width:510px ;
+    height:230px ;
+    background-color:rgb(75, 4, 110) ;
+    margin-left:10px ;
+   top: 10px;
+   position: relative;
+   float: left;
+}
+
+.inbox
+{
+    width:150px ;
+    height: 150px;
+   
+    background-color: blueviolet;
+    border:2px solid rgb(121, 6, 228);
+    top:30px;
+    position: relative;
+    margin-left: 30px;
+    
+    -webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-o-border-radius:30px;
+	-ms-border-radius:30px;
+	border-radius:30px;
+    float: left;
+}
+.inbox img
+{
+    width:100%;
+    height:100%;
+    -webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-o-border-radius:30px;
+	-ms-border-radius:30px;
+	border-radius:30px;
+}
+.word
+{
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: aliceblue;
+    top: 40px;
+    position: relative;
+    left: 40px;
+    position: relative;
+    
+}
+hr
+{
+    top:40px ;
+    position: relative;
+    color: rgb(74, 65, 78);
+    width:260px ;
+     
+}
+.lorem
+{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: azure;
+    top: 50px;
+    position: relative;
+    left: 40px;
+    position: relative;
+} 
+.readmore
+{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: azure;
+    top: 70px;
+    position: relative;
+    left: 40px;
+    position: relative;
+    text-decoration: underline;
+}
+.secondbox
+{
+    width:340px ;
+    height:230px ;
+    background-color:rgb(75, 4, 110) ;
+    margin-left:530px ;
+   top: 10px;
+   position: relative;
+ 
+}
+.file
+{
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: aliceblue;
+    top: 40px;
+    position: relative;
+    left: 30px;
+    position: relative;
+    
+}
+.logo
+
+{
+  top: 10px;
+  position:relative;
+  right: 40px;
+    position: relative;
+    
+}

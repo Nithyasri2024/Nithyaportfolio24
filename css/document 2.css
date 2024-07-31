@@ -1,0 +1,65 @@
+.box
+{
+    width:880px ;
+    height:330px ;
+    background-color: rgb(1, 245, 74);
+    margin-left:60px;
+    margin-top: 0px;
+    border:2px solid #13fa03;
+    margin:60px 0 30px 40pxpx;
+	overflow:hidden;
+	animation:galle 20s ease-in 0s 100 alternate;
+	-webkit-animation:galle 20s ease-in 0s 100 alternate;
+    
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-o-border-radius:30px;
+	-ms-border-radius:30px;
+	border-radius:30px;
+}
+@keyframes galle
+{
+	from
+	{
+		background-image:url(../images/nat1.jpg);
+	}
+	25%
+	{
+		background-image:url(../images/nat2.jpg);
+	}
+	50%
+	{
+		background-image:url(../images/nat3.jpg);
+	}
+	75%
+	{
+		background-image:url(../images/nat4.jpg);
+	}
+	to
+	{
+		background-image:url(../images/nat5.JPG);
+	}
+}
+@-webkit-keyframes galle
+{
+	from
+	{
+		background-image:url(../images/nat1.jpg);
+	}
+	25%
+	{
+		background-image:url(../images/nat2.jpg);
+	}
+	50%
+	{
+		background-image:url(../images/nat3.jpg);
+	}
+	75%
+	{
+		background-image:url(../images/nat4.jpg);
+	}
+	to
+	{
+		background-image:url(../images/nat5.JPG);
+	}
+}

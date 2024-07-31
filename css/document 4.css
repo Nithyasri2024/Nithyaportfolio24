@@ -1,0 +1,94 @@
+.boxtwo
+{
+    width:880px  ;
+    height:250px ;
+    background-color: rgb(109, 4, 161);
+    margin-left:60px;
+    margin-top: 0px;
+    
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-o-border-radius:30px;
+	-ms-border-radius:30px;
+	border-radius:30px;
+}
+.port
+{
+	width:200px;
+	height:125px;
+	background-color:#FFFFFF;
+	overflow:hidden;
+	margin:10px 40px;
+	animation:three 10s ease-in 0s 10 alternate;
+	-webkit-animation:three 10s ease-in 0s 10 alternate;
+	float:left;
+    border:2px solid rgb(142, 30, 247);
+    -webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-o-border-radius:30px;
+	-ms-border-radius:30px;
+	border-radius:30px;
+
+}
+@keyframes three
+{
+	from
+	{
+		background-image:url(../images/imga.jpg);
+	}
+	50%
+	{
+		background-image:url(../images/imgb.jpg);
+	}
+	to
+	{
+		background-image:url(../images/imgc.jpg);
+	}
+}
+@-webkit-keyframes three
+{
+	from
+	{
+		background-image:url(../images/imga.jpg);
+	}
+	50%
+	{
+		background-image:url(../images/imgb.jpg);
+	}
+	to
+	{
+		background-image:url(../images/imgc.jpg);
+	}
+}
+.onebox
+{
+    width: 150px;
+    height:40px ;
+    background-color: rgb(54, 2, 89);
+    top:170px;
+    position: relative;
+    left:50px ;
+    position: relative;
+}
+
+.twobox
+{
+    width: 150px;
+    height:40px ;
+    background-color:  rgb(54, 2, 89);
+    top:130px;
+    position: relative;
+    left:330px ;
+    position: relative;
+}
+
+.threebox
+{
+    width: 150px;
+    height:40px ;
+    background-color: rgb(54, 2, 89);
+    top:90px;
+    position: relative;
+    left:620px ;
+    position: relative;
+}
